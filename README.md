@@ -17,4 +17,6 @@ Final group project repo for geog 458 course | GroupAB3
 - [Starbucks Dominates the Coffee Market in Seattle](https://www.thecommonscafe.com/starbucks-dominates-the-coffee-market-in-seattle/)
 - [Starbucks: A Legendary Washington State Business Since 1971](http://choosewashingtonstate.com/success-stories/starbucks/)
 
-![Seattle](img/wordcloud-SEA.png)
+![Reserve](img/Reserve.png) [link](https://www.cntraveler.com/bars/seattle/starbucks-reserve-roastery)
+![Store](img/Store.png)[link](https://www.seattlemet.com/eat-and-drink/2015/08/every-single-starbucks-in-seattle-ranked)
+![Starbucks](img/Starbucks.png) [link](https://wisconsinexaminer.com/wp-content/uploads/2022/02/starbucks-g489067a76_1920-1024x683.jpg)
