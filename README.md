@@ -23,12 +23,13 @@ Some negative impact that the project may have is privacy concerns. The dataset 
 
 #### Dataset
 [Starbucks Stores in Seattle](https://www.kaggle.com/datasets/kukuroo3/starbucks-locations-worldwide-2021-version?resource=download)
+
 The original dataset comes from Kaggle which is quite credible and contained worldwide Starbucks locations in 2021, but we cleaned the dataset to focus on Seattle area only where there’s relatively more Starbucks stores than any other cities in the U.S. We removed the unnecessary 5 columns and kept columns like longitude, latitude, zipcode, street address and etc as well as removed NA or NAN values for a better compatibility when loading in the map. Lastly, we filtered out only Seattle from city and US from country code so that we can use Seattle only out of worldwide data.
 
 ## Targeted audience
 Seattle’s coffee enthusiasts, tourists who visit Seattle, city planners, and basically anyone who drinks coffee, loves starbucks and is particularly looking for a certain type of Starbucks store. Also people who are trying to open up their coffee shop might be helpful so that they can avoid the duplicate area.
 
-## Multimedia (e.g., external links, texts, images, youtube videos, etc.)
+## Multimedia
 - [Seattle | Starbucks Reserve Roastery](https://www.youtube.com/watch?v=s6AgzclRCJE)
 - [Your Seattle Starbucks Checklist](http://www.starbucksmelody.com/2018/11/24/starbucks-checklist/)
 - [Starbucks Dominates the Coffee Market in Seattle](https://www.thecommonscafe.com/starbucks-dominates-the-coffee-market-in-seattle/)
@@ -38,8 +39,7 @@ Seattle’s coffee enthusiasts, tourists who visit Seattle, city planners, and b
 ![Store](img/Store.png)[link](https://www.seattlemet.com/eat-and-drink/2015/08/every-single-starbucks-in-seattle-ranked)
 ![Starbucks](img/Starbucks.png) [link](https://wisconsinexaminer.com/wp-content/uploads/2022/02/starbucks-g489067a76_1920-1024x683.jpg)
 
-## Project Format
-#### Generic digital geographies project
+## Project Format : Generic digital geographies project
 For this project, we will be using the web mercator projection, which is commonly used for web mapping applications. We will set the initial zoom level to display the entire city of Seattle and allow users to zoom in and out as needed. The center of the map will be set to the geographic center of seattle.
 
 #### Base map:
