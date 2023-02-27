@@ -1,47 +1,27 @@
-h2, h3 {
-  margin: 10px;
-  font-size: 18px;
+
+#container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #fffcfc;
 }
 
-h3 {
-  font-size: 16px;
-}
-
-p {
-  margin: 10px;
+#side-panel {
+  flex-basis: 500px;
+  overflow-y: scroll;
 }
 
 #map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+flex: 1%;
 }
 
-.map-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: rgba(255, 255, 255, 0.8);
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.2);
-  margin-left: 20px;
-  font-family: Arial, sans-serif;
-  overflow: auto;
-  border-radius: 3px;
+.divider {
+  border-bottom: 2px solid #726f6d;
 }
 
-#features {
-  top: 0;
-  height: 100px;
-  margin-top: 20px;
-  width: 250px;
-}
-
-.mapboxgl-canvas-container.mapboxgl-interactive,
-.mapboxgl-ctrl-group button.mapboxgl-ctrl-compass {
-  cursor: unset;
+h1 {
+  text-align: center;
+  color: #0b421a;
+  font-weight: bolder;
 }
