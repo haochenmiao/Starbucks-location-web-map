@@ -1,154 +1,47 @@
-
-body,
-html {
-  font-family: "Poppins";
+h2, h3 {
+  margin: 10px;
   font-size: 18px;
-
-  margin: 0;
-  padding: 0;
 }
 
-.page-container {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  padding: 0;
-  margin: 0;
-}
-
-#map {
-  width: 100%;
-  height: 100%;
-}
-
-.map-container {
-  height: 100%;
-  width: calc(100% - var(--sidebar-width));
-}
-
-.sidebar {
-  background-color: #fff;
-  height: 100%;
-  max-height: 100vh;
-  padding: 20px;
-  width: var(--sidebar-width);
-  display: flex;
-  flex-direction: column;
-}
-
-.sidebar-btn {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.divider {
-  border-bottom: 1px solid #ccc;
-}
-
-.selectors {
-  display: inline-flex;
-  border: 1px solid black;
-  border-radius: 4px;
-  overflow: hidden;
-  width: 100%;
-  flex-shrink: 0;
-  margin: 0.5rem 0;
-  min-height: 3.5rem;
-}
-
-.selector {
-  cursor: pointer;
-  padding: 10px 16px;
-  width: 100%;
-  display: grid;
-  place-items: center;
-}
-
-.selector:not(:last-child) {
-  border-right: 1px solid black;
-}
-
-.selector.active {
-  background-color: var(--dark-color);
-  color: #000000;
-}
-
-.data-container {
-  display: flex;
-  flex-direction: column;
-  overflow: scroll;
-  padding: 0.1rem;
-}
-
-.data-item,
-.feature-item {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  border-radius: 5px;
-  margin: 0.5rem 0;
-  padding: 0.25rem;
-}
-
-.data-item:hover {
-  background-color: #eee;
-}
-
-.feature-item:hover {
-  background-color: rgba(249, 164, 164, 0.365);
-}
-
-.data-item__title,
-.feature-item__title {
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-}
-
-.hidden {
-  display: none;
-}
-
-/* Add styles for the search bar container */
-.search-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Add styles for the search bar */
-.search-bar {
-  width: 100%;
-  height: 40px;
-  border: 2px solid var(--dark-color);
-  border-radius: 5px;
-  padding: 0 10px 0 10px;
-  outline: none;
+h3 {
   font-size: 16px;
 }
 
-/* Add styles for the search icon */
-.search-icon {
+p {
+  margin: 10px;
+}
+
+#map {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 20px;
-  color: #362415;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
-/* Add styles for the hover effect on the search bar */
-.search-bar:hover {
-  border-color: #EAC784;
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
 }
 
-/* Add styles for the click effect on the search bar */
-.search-bar:focus {
-  border-color: #0B421A;
+#features {
+  top: 0;
+  height: 100px;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.mapboxgl-canvas-container.mapboxgl-interactive,
+.mapboxgl-ctrl-group button.mapboxgl-ctrl-compass {
+  cursor: unset;
 }
