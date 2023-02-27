@@ -1,0 +1,965 @@
+{
+  "3306-2068": {
+    "countryCode": "US",
+    "latitude": "47.57883",
+    "longitude": "-122.41116",
+    "streetAddressLine1": "2742 Alki Ave SW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981162812"
+  },
+  "348-76040": {
+    "countryCode": "US",
+    "latitude": "47.639717",
+    "longitude": "-122.3998",
+    "streetAddressLine1": "3300 W. McGraw Street",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981993246"
+  },
+  "15947-155025": {
+    "countryCode": "US",
+    "latitude": "47.579567",
+    "longitude": "-122.38632",
+    "streetAddressLine1": "2622 California Ave SW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981162459"
+  },
+  "339-102": {
+    "countryCode": "US",
+    "latitude": "47.581034",
+    "longitude": "-122.38407",
+    "streetAddressLine1": "4101 SW Admiral Way",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981162517"
+  },
+  "5119-100714": {
+    "countryCode": "US",
+    "latitude": "47.670638",
+    "longitude": "-122.38727",
+    "streetAddressLine1": "2237 NW 58th ST",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981073136"
+  },
+  "318-80": {
+    "countryCode": "US",
+    "latitude": "47.668875",
+    "longitude": "-122.385",
+    "streetAddressLine1": "2200 NW Market Street",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981074024"
+  },
+  "9447-95022": {
+    "countryCode": "US",
+    "latitude": "47.62982",
+    "longitude": "-122.3721",
+    "streetAddressLine1": "1144 Elliott Avenue West",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981193103"
+  },
+  "24837-236918": {
+    "countryCode": "US",
+    "latitude": "47.560942",
+    "longitude": "-122.38659",
+    "streetAddressLine1": "4233 SW Alaska St.",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981164524"
+  },
+  "5124-142239": {
+    "countryCode": "US",
+    "latitude": "47.561286",
+    "longitude": "-122.38468",
+    "streetAddressLine1": "4550 42nd Ave SW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981164527"
+  },
+  "74972-101072": {
+    "countryCode": "US",
+    "latitude": "47.55983",
+    "longitude": "-122.38489",
+    "streetAddressLine1": "4754 42nd Ave SW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981164553"
+  },
+  "19991-199464": {
+    "countryCode": "US",
+    "latitude": "47.666939",
+    "longitude": "-122.37591",
+    "streetAddressLine1": "5221 15th Ave NW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981073806"
+  },
+  "74169-118686": {
+    "countryCode": "US",
+    "latitude": "47.668564",
+    "longitude": "-122.37439",
+    "streetAddressLine1": "1423 NW Market St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981073744"
+  },
+  "11668-103809": {
+    "countryCode": "US",
+    "latitude": "47.564283",
+    "longitude": "-122.37704",
+    "streetAddressLine1": "4408 Fauntleroy Way SW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981264440"
+  },
+  "58970-139829": {
+    "countryCode": "US",
+    "latitude": "47.660595",
+    "longitude": "-122.36859",
+    "streetAddressLine1": "915 NW 45th Street",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981074606"
+  },
+  "3202-6": {
+    "countryCode": "US",
+    "latitude": "47.54463",
+    "longitude": "-122.38752",
+    "streetAddressLine1": "6501 California Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981361899"
+  },
+  "74395-50719": {
+    "countryCode": "US",
+    "latitude": "47.623776",
+    "longitude": "-122.3578",
+    "streetAddressLine1": "516 1st Ave W",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981094522"
+  },
+  "3355-42599": {
+    "countryCode": "US",
+    "latitude": "47.622934",
+    "longitude": "-122.35691",
+    "streetAddressLine1": "425 Queen Anne Avenue N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981094517"
+  },
+  "74260-112986": {
+    "countryCode": "US",
+    "latitude": "47.69018",
+    "longitude": "-122.37619",
+    "streetAddressLine1": "8340 15th Ave NW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98117"
+  },
+  "314-8": {
+    "countryCode": "US",
+    "latitude": "47.638249",
+    "longitude": "-122.35716",
+    "streetAddressLine1": "2135 Queen Anne Ave N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981092310"
+  },
+  "79503-101467": {
+    "countryCode": "US",
+    "latitude": "47.637724",
+    "longitude": "-122.35628",
+    "streetAddressLine1": "2100 Queen Anne Ave N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981092309"
+  },
+  "3204-3": {
+    "countryCode": "US",
+    "latitude": "47.621052",
+    "longitude": "-122.3508",
+    "streetAddressLine1": "305 Harrison Street",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981094623"
+  },
+  "79485-102667": {
+    "countryCode": "US",
+    "latitude": "47.624725",
+    "longitude": "-122.34726",
+    "streetAddressLine1": "500 Mercer Avenue",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981094654"
+  },
+  "370-211284": {
+    "countryCode": "US",
+    "latitude": "47.649834",
+    "longitude": "-122.35014",
+    "streetAddressLine1": "3401 Fremont Avenue N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981038866"
+  },
+  "3296-9257": {
+    "countryCode": "US",
+    "latitude": "47.61255",
+    "longitude": "-122.34278",
+    "streetAddressLine1": "211 Lenora",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981212235"
+  },
+  "301-67": {
+    "countryCode": "US",
+    "latitude": "47.610047",
+    "longitude": "-122.34259",
+    "streetAddressLine1": "1912 Pike Place",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981011013"
+  },
+  "74349-84924": {
+    "countryCode": "US",
+    "latitude": "47.520752",
+    "longitude": "-122.26821",
+    "streetAddressLine1": "9262 Rainier Ave S",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981185570"
+  },
+  "12950-155384": {
+    "countryCode": "US",
+    "latitude": "47.537471",
+    "longitude": "-122.28307",
+    "streetAddressLine1": "3900 S Othello St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981183543"
+  },
+  "11158-99264": {
+    "countryCode": "US",
+    "latitude": "47.545883",
+    "longitude": "-122.2851",
+    "streetAddressLine1": "6310 Martin Luther King Jr. Way S",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98118"
+  },
+  "24284-236926": {
+    "countryCode": "US",
+    "latitude": "47.569072",
+    "longitude": "-122.28834",
+    "streetAddressLine1": "3820 Rainier Avenue South",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98118"
+  },
+  "79347-100350": {
+    "countryCode": "US",
+    "latitude": "47.579087",
+    "longitude": "-122.29977",
+    "streetAddressLine1": "2707 Rainier Avenue South",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981445332"
+  },
+  "14247-137176": {
+    "countryCode": "US",
+    "latitude": "47.566563",
+    "longitude": "-122.32964",
+    "streetAddressLine1": "4115 4th Avenue S",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981342309"
+  },
+  "50621-275765": {
+    "countryCode": "US",
+    "latitude": "47.581011",
+    "longitude": "-122.33531",
+    "streetAddressLine1": "2401 Utah Ave. S",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98134"
+  },
+  "3376-12811": {
+    "countryCode": "US",
+    "latitude": "47.522721",
+    "longitude": "-122.36558",
+    "streetAddressLine1": "9023 25th Ave SW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981060908"
+  },
+  "27542-244346": {
+    "countryCode": "US",
+    "latitude": "47.522047",
+    "longitude": "-122.3687",
+    "streetAddressLine1": "2800 SW Barton St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98126"
+  },
+  "79328-101213": {
+    "countryCode": "US",
+    "latitude": "47.522233",
+    "longitude": "-122.36567",
+    "streetAddressLine1": "2500 SW Barton",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98126"
+  },
+  "9303-95447": {
+    "countryCode": "US",
+    "latitude": "47.5842",
+    "longitude": "-122.33394",
+    "streetAddressLine1": "1962 1st Ave S.",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981341406"
+  },
+  "3408-270326": {
+    "countryCode": "US",
+    "latitude": "47.546162",
+    "longitude": "-122.32563",
+    "streetAddressLine1": "601 S Michigan St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981082634"
+  },
+  "74225-56780": {
+    "countryCode": "US",
+    "latitude": "47.516681",
+    "longitude": "-122.36708",
+    "streetAddressLine1": "9620 28th Ave SW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981264102"
+  },
+  "49009-260729": {
+    "countryCode": "US",
+    "latitude": "47.513851",
+    "longitude": "-122.35493",
+    "streetAddressLine1": "9862 16th Ave SW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98146"
+  },
+  "3307-9256": {
+    "countryCode": "US",
+    "latitude": "47.597655",
+    "longitude": "-122.32829",
+    "streetAddressLine1": "505 5th Ave South",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981043891"
+  },
+  "2937-84565": {
+    "countryCode": "US",
+    "latitude": "47.604867",
+    "longitude": "-122.33971",
+    "streetAddressLine1": "1101 Alaskan Way",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981012981"
+  },
+  "65375-299342": {
+    "countryCode": "US",
+    "latitude": "47.606964",
+    "longitude": "-122.3385",
+    "streetAddressLine1": "1305 1st Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98101"
+  },
+  "3347-9592": {
+    "countryCode": "US",
+    "latitude": "47.605286",
+    "longitude": "-122.33437",
+    "streetAddressLine1": "999 Third Avenue",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981044019"
+  },
+  "101-54": {
+    "countryCode": "US",
+    "latitude": "47.604277",
+    "longitude": "-122.33067",
+    "streetAddressLine1": "701 Fifth Avenue",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981047097"
+  },
+  "16891-168546": {
+    "countryCode": "US",
+    "latitude": "47.608378",
+    "longitude": "-122.33844",
+    "streetAddressLine1": "1401 2nd Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981012007"
+  },
+  "14870-142604": {
+    "countryCode": "US",
+    "latitude": "47.609052",
+    "longitude": "-122.33991",
+    "streetAddressLine1": "102 Pike St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981012010"
+  },
+  "15719-172425": {
+    "countryCode": "US",
+    "latitude": "47.607302",
+    "longitude": "-122.33589",
+    "streetAddressLine1": "1201 3rd Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981013029"
+  },
+  "392-218": {
+    "countryCode": "US",
+    "latitude": "47.607343",
+    "longitude": "-122.33425",
+    "streetAddressLine1": "1125 4th Avenue",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981013003"
+  },
+  "16741-159444": {
+    "countryCode": "US",
+    "latitude": "47.605341",
+    "longitude": "-122.33042",
+    "streetAddressLine1": "800 5th Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981043176"
+  },
+  "60580-294556": {
+    "countryCode": "US",
+    "latitude": "47.610562",
+    "longitude": "-122.33563",
+    "streetAddressLine1": "425 Pike St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98101"
+  },
+  "3343-30035": {
+    "countryCode": "US",
+    "latitude": "47.611517",
+    "longitude": "-122.33733",
+    "streetAddressLine1": "400 Pine Street",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98101"
+  },
+  "114-101752": {
+    "countryCode": "US",
+    "latitude": "47.610154",
+    "longitude": "-122.33308",
+    "streetAddressLine1": "601 Union Street",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981012341"
+  },
+  "54688-282204": {
+    "countryCode": "US",
+    "latitude": "47.610587",
+    "longitude": "-122.33352",
+    "streetAddressLine1": "1400 6th Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98102"
+  },
+  "3298-4659": {
+    "countryCode": "US",
+    "latitude": "47.612235",
+    "longitude": "-122.33378",
+    "streetAddressLine1": "1524 7th Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981011704"
+  },
+  "25577-237354": {
+    "countryCode": "US",
+    "latitude": "47.61524",
+    "longitude": "-122.33814",
+    "streetAddressLine1": "2011 7th Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981212601"
+  },
+  "3379-70784": {
+    "countryCode": "US",
+    "latitude": "47.614325",
+    "longitude": "-122.33587",
+    "streetAddressLine1": "1700 Seventh Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981011397"
+  },
+  "112-63": {
+    "countryCode": "US",
+    "latitude": "47.609578",
+    "longitude": "-122.32419",
+    "streetAddressLine1": "1101 Madison Street",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981041306"
+  },
+  "22868-212945": {
+    "countryCode": "US",
+    "latitude": "47.608157",
+    "longitude": "-122.32164",
+    "streetAddressLine1": "601 Broadway",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98122"
+  },
+  "22358-212944": {
+    "countryCode": "US",
+    "latitude": "47.608737",
+    "longitude": "-122.32166",
+    "streetAddressLine1": "747 Broadway",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98122"
+  },
+  "22344-217764": {
+    "countryCode": "US",
+    "latitude": "47.614008",
+    "longitude": "-122.32811",
+    "streetAddressLine1": "1124 Pike St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98101"
+  },
+  "3324-20420": {
+    "countryCode": "US",
+    "latitude": "47.609367",
+    "longitude": "-122.31657",
+    "streetAddressLine1": "800 12th Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981224410"
+  },
+  "104-222207": {
+    "countryCode": "US",
+    "latitude": "47.617158",
+    "longitude": "-122.3298",
+    "streetAddressLine1": "1730 Minor Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981011498"
+  },
+  "3231-769": {
+    "countryCode": "US",
+    "latitude": "47.599433",
+    "longitude": "-122.30198",
+    "streetAddressLine1": "2300 South Jackson",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981442369"
+  },
+  "72922-95925": {
+    "countryCode": "US",
+    "latitude": "47.613838",
+    "longitude": "-122.32119",
+    "streetAddressLine1": "1401 Broadway",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981223854"
+  },
+  "75364-102761": {
+    "countryCode": "US",
+    "latitude": "47.60719",
+    "longitude": "-122.30992",
+    "streetAddressLine1": "550 17th Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981225788"
+  },
+  "3702-92": {
+    "countryCode": "US",
+    "latitude": "47.634097",
+    "longitude": "-122.28083",
+    "streetAddressLine1": "4000 East Madison St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981123160"
+  },
+  "8890-151149": {
+    "countryCode": "US",
+    "latitude": "47.662275",
+    "longitude": "-122.28093",
+    "streetAddressLine1": "4800 Sand Point Way, NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981053901"
+  },
+  "61932-294207": {
+    "countryCode": "US",
+    "latitude": "47.663162",
+    "longitude": "-122.28274",
+    "streetAddressLine1": "4800 Sand Point Way NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98105"
+  },
+  "3238-1636": {
+    "countryCode": "US",
+    "latitude": "47.602082",
+    "longitude": "-122.28539",
+    "streetAddressLine1": "121 Lakeside Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981226599"
+  },
+  "73957-102105": {
+    "countryCode": "US",
+    "latitude": "47.662475",
+    "longitude": "-122.29676",
+    "streetAddressLine1": "2746 NE 45th Street",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981055099"
+  },
+  "5076-148145": {
+    "countryCode": "US",
+    "latitude": "47.617997",
+    "longitude": "-122.30353",
+    "streetAddressLine1": "2201 E Madison",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981125336"
+  },
+  "20088-202265": {
+    "countryCode": "US",
+    "latitude": "47.661662",
+    "longitude": "-122.29936",
+    "streetAddressLine1": "2617 NE 46th St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981055041"
+  },
+  "3297-6387": {
+    "countryCode": "US",
+    "latitude": "47.733578",
+    "longitude": "-122.31311",
+    "streetAddressLine1": "14359 15th Avenue NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981258465"
+  },
+  "8777-94367": {
+    "countryCode": "US",
+    "latitude": "47.732951",
+    "longitude": "-122.2919",
+    "streetAddressLine1": "14330 Lake City Way NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981253620"
+  },
+  "3577-102132": {
+    "countryCode": "US",
+    "latitude": "47.733364",
+    "longitude": "-122.31063",
+    "streetAddressLine1": "1531 NE 145th St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981557205"
+  },
+  "13187-152144": {
+    "countryCode": "US",
+    "latitude": "47.718001",
+    "longitude": "-122.31198",
+    "streetAddressLine1": "12318 15th Ave NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981254820"
+  },
+  "79289-98129": {
+    "countryCode": "US",
+    "latitude": "47.709137",
+    "longitude": "-122.31748",
+    "streetAddressLine1": "11100 Roosevelt Way NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981256234"
+  },
+  "3402-78202": {
+    "countryCode": "US",
+    "latitude": "47.715983",
+    "longitude": "-122.29756",
+    "streetAddressLine1": "12001 Lake City Way NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981255331"
+  },
+  "4140-147524": {
+    "countryCode": "US",
+    "latitude": "47.709062",
+    "longitude": "-122.32543",
+    "streetAddressLine1": "302 NE Northgate Way",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981256047"
+  },
+  "66834-301459": {
+    "countryCode": "US",
+    "latitude": "47.704564",
+    "longitude": "-122.32386",
+    "streetAddressLine1": "10601 5th Ave. NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98125"
+  },
+  "3363-39519": {
+    "countryCode": "US",
+    "latitude": "47.708247",
+    "longitude": "-122.33211",
+    "streetAddressLine1": "2137 North Northgate Way",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981339006"
+  },
+  "19245-93994": {
+    "countryCode": "US",
+    "latitude": "47.714057",
+    "longitude": "-122.33705",
+    "streetAddressLine1": "1550 North 115th St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98133"
+  },
+  "3300-9280": {
+    "countryCode": "US",
+    "latitude": "47.724335",
+    "longitude": "-122.3455",
+    "streetAddressLine1": "13025 Aurora Avenue North",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981337506"
+  },
+  "7136-150645": {
+    "countryCode": "US",
+    "latitude": "47.682071",
+    "longitude": "-122.31683",
+    "streetAddressLine1": "7300 Roosevelt Way NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981155663"
+  },
+  "19475-189065": {
+    "countryCode": "US",
+    "latitude": "47.689479",
+    "longitude": "-122.34484",
+    "streetAddressLine1": "8301 Aurora Ave. N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981034355"
+  },
+  "17117-177224": {
+    "countryCode": "US",
+    "latitude": "47.682534",
+    "longitude": "-122.28941",
+    "streetAddressLine1": "7340 35th Ave NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981155919"
+  },
+  "3346-32539": {
+    "countryCode": "US",
+    "latitude": "47.701661",
+    "longitude": "-122.36397",
+    "streetAddressLine1": "9999 Holman Rd NW",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981172041"
+  },
+  "389-7": {
+    "countryCode": "US",
+    "latitude": "47.680009",
+    "longitude": "-122.32553",
+    "streetAddressLine1": "7100 E Greenlake Drive N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981155415"
+  },
+  "2958-97759": {
+    "countryCode": "US",
+    "latitude": "47.681397",
+    "longitude": "-122.29064",
+    "streetAddressLine1": "7303 35th Avenue NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981155918"
+  },
+  "16763-96479": {
+    "countryCode": "US",
+    "latitude": "47.691979",
+    "longitude": "-122.3587",
+    "streetAddressLine1": "100 NW 85th Ave",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981173058"
+  },
+  "3248-1635": {
+    "countryCode": "US",
+    "latitude": "47.675689",
+    "longitude": "-122.31639",
+    "streetAddressLine1": "6417 Roosevelt Way NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981156657"
+  },
+  "3394-75960": {
+    "countryCode": "US",
+    "latitude": "47.664405",
+    "longitude": "-122.29897",
+    "streetAddressLine1": "2650 NE 49th ST",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981055010"
+  },
+  "302-68": {
+    "countryCode": "US",
+    "latitude": "47.662687",
+    "longitude": "-122.29974",
+    "streetAddressLine1": "4634 26th Avenue NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981055024"
+  },
+  "5123-146524": {
+    "countryCode": "US",
+    "latitude": "47.661753",
+    "longitude": "-122.33587",
+    "streetAddressLine1": "1801 N 45th St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981036859"
+  },
+  "61169-291341": {
+    "countryCode": "US",
+    "latitude": "47.658666",
+    "longitude": "-122.30987",
+    "streetAddressLine1": "1169 NE Campus Pkwy",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98105"
+  },
+  "7941-95812": {
+    "countryCode": "US",
+    "latitude": "47.658219",
+    "longitude": "-122.31336",
+    "streetAddressLine1": "4147 University Way NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981056213"
+  },
+  "50471-248824": {
+    "countryCode": "US",
+    "latitude": "47.655619",
+    "longitude": "-122.30859",
+    "streetAddressLine1": "4000 15th Ave. NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98105"
+  },
+  "24357-233395": {
+    "countryCode": "US",
+    "latitude": "47.654891",
+    "longitude": "-122.30539",
+    "streetAddressLine1": "4001 Stevens Wy NE",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98195"
+  },
+  "62622-293313": {
+    "countryCode": "US",
+    "latitude": "47.654374",
+    "longitude": "-122.3118",
+    "streetAddressLine1": "3980 15TH AVE NE",
+    "city": "SEATTLE",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "98195"
+  },
+  "74489-96264": {
+    "countryCode": "US",
+    "latitude": "47.620423",
+    "longitude": "-122.31309",
+    "streetAddressLine1": "1410 E John St",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981125218"
+  },
+  "304-260735": {
+    "countryCode": "US",
+    "latitude": "47.618869",
+    "longitude": "-122.32104",
+    "streetAddressLine1": "101 Broadway East",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981026067"
+  },
+  "72908-95926": {
+    "countryCode": "US",
+    "latitude": "47.62228",
+    "longitude": "-122.32111",
+    "streetAddressLine1": "417 Broadway E",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981025009"
+  },
+  "3281-6226": {
+    "countryCode": "US",
+    "latitude": "47.619378",
+    "longitude": "-122.32496",
+    "streetAddressLine1": "1600 E Olive Wy",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981025613"
+  },
+  "15407-156113": {
+    "countryCode": "US",
+    "latitude": "47.622767",
+    "longitude": "-122.33668",
+    "streetAddressLine1": "442 Terry Avenue N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981095210"
+  },
+  "23730-232404": {
+    "countryCode": "US",
+    "latitude": "47.624489",
+    "longitude": "-122.33858",
+    "streetAddressLine1": "515 Westlake Ave N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981095191"
+  },
+  "2810-89320": {
+    "countryCode": "US",
+    "latitude": "47.629932",
+    "longitude": "-122.34005",
+    "streetAddressLine1": "1200 Westlake Ave N",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981093543"
+  },
+  "3448-84572": {
+    "countryCode": "US",
+    "latitude": "47.641026",
+    "longitude": "-122.32567",
+    "streetAddressLine1": "2344 Eastlake Ave E",
+    "city": "Seattle",
+    "countrySubdivisionCode": "WA",
+    "postalCode": "981023306"
+  }
+}

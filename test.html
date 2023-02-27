@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <head>
+    <meta charset="utf-8">
+    <title>Starbucks in Seattle</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="scripts/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="sidebar">
+      <div class="heading">
+        <h1>Starbucks in Seattle</h1>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="find-a-store-container">
+        <H3 class="find-a-store-title">Please select a point on the map or from below.</H3>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="selectors">
+
+        <span class="selector btn active">Drive-Thru</span>
+        <span class="selector btn">In store</span>
+      </div>
+
+      <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Find a store">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+
+      <div class="data-container" id="orderpickup_data_container">
+      </div>
+
+      <div class="data-container hidden" id="drivethru_data_container">
+      </div>
+
+    </div>
+
+    <div class="map-container">
+      <div id="map"></div>
+    </div>
+
+  </div>
+<script src="scripts/main.js"></script>
+</body>
+
+</html>
