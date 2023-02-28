@@ -1,0 +1,1610 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.41116,47.57883 ]
+    },
+    "properties": {
+    "storeNumber":"3306-2068",
+    "countryCode":"US",
+    "streetAddressLine1":"2742 Alki Ave SW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981162812
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3998,47.639717 ]
+    },
+    "properties": {
+    "storeNumber":"348-76040",
+    "countryCode":"US",
+    "streetAddressLine1":"3300 W. McGraw Street",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981993246
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38632,47.579567 ]
+    },
+    "properties": {
+    "storeNumber":"15947-155025",
+    "countryCode":"US",
+    "streetAddressLine1":"2622 California Ave SW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981162459
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38407,47.581034 ]
+    },
+    "properties": {
+    "storeNumber":"339-102",
+    "countryCode":"US",
+    "streetAddressLine1":"4101 SW Admiral Way",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981162517
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38727,47.670638 ]
+    },
+    "properties": {
+    "storeNumber":"5119-100714",
+    "countryCode":"US",
+    "streetAddressLine1":"2237 NW 58th ST",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981073136
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.385,47.668875 ]
+    },
+    "properties": {
+    "storeNumber":"318-80",
+    "countryCode":"US",
+    "streetAddressLine1":"2200 NW Market Street",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981074024
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3721,47.62982 ]
+    },
+    "properties": {
+    "storeNumber":"9447-95022",
+    "countryCode":"US",
+    "streetAddressLine1":"1144 Elliott Avenue West",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981193103
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38659,47.560942 ]
+    },
+    "properties": {
+    "storeNumber":"24837-236918",
+    "countryCode":"US",
+    "streetAddressLine1":"4233 SW Alaska St.",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981164524
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38468,47.561286 ]
+    },
+    "properties": {
+    "storeNumber":"5124-142239",
+    "countryCode":"US",
+    "streetAddressLine1":"4550 42nd Ave SW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981164527
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38489,47.55983 ]
+    },
+    "properties": {
+    "storeNumber":"74972-101072",
+    "countryCode":"US",
+    "streetAddressLine1":"4754 42nd Ave SW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981164553
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.37591,47.666939 ]
+    },
+    "properties": {
+    "storeNumber":"19991-199464",
+    "countryCode":"US",
+    "streetAddressLine1":"5221 15th Ave NW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981073806
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.37439,47.668564 ]
+    },
+    "properties": {
+    "storeNumber":"74169-118686",
+    "countryCode":"US",
+    "streetAddressLine1":"1423 NW Market St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981073744
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.37704,47.564283 ]
+    },
+    "properties": {
+    "storeNumber":"11668-103809",
+    "countryCode":"US",
+    "streetAddressLine1":"4408 Fauntleroy Way SW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981264440
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.36859,47.660595 ]
+    },
+    "properties": {
+    "storeNumber":"58970-139829",
+    "countryCode":"US",
+    "streetAddressLine1":"915 NW 45th Street",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981074606
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38752,47.54463 ]
+    },
+    "properties": {
+    "storeNumber":"3202-6",
+    "countryCode":"US",
+    "streetAddressLine1":"6501 California Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981361899
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3578,47.623776 ]
+    },
+    "properties": {
+    "storeNumber":"74395-50719",
+    "countryCode":"US",
+    "streetAddressLine1":"516 1st Ave W",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981094522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.35691,47.622934 ]
+    },
+    "properties": {
+    "storeNumber":"3355-42599",
+    "countryCode":"US",
+    "streetAddressLine1":"425 Queen Anne Avenue N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981094517
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.37619,47.69018 ]
+    },
+    "properties": {
+    "storeNumber":"74260-112986",
+    "countryCode":"US",
+    "streetAddressLine1":"8340 15th Ave NW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98117
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.35716,47.638249 ]
+    },
+    "properties": {
+    "storeNumber":"314-8",
+    "countryCode":"US",
+    "streetAddressLine1":"2135 Queen Anne Ave N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981092310
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.35628,47.637724 ]
+    },
+    "properties": {
+    "storeNumber":"79503-101467",
+    "countryCode":"US",
+    "streetAddressLine1":"2100 Queen Anne Ave N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981092309
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3508,47.621052 ]
+    },
+    "properties": {
+    "storeNumber":"3204-3",
+    "countryCode":"US",
+    "streetAddressLine1":"305 Harrison Street",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981094623
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.34726,47.624725 ]
+    },
+    "properties": {
+    "storeNumber":"79485-102667",
+    "countryCode":"US",
+    "streetAddressLine1":"500 Mercer Avenue",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981094654
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.35014,47.649834 ]
+    },
+    "properties": {
+    "storeNumber":"370-211284",
+    "countryCode":"US",
+    "streetAddressLine1":"3401 Fremont Avenue N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981038866
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.34278,47.61255 ]
+    },
+    "properties": {
+    "storeNumber":"3296-9257",
+    "countryCode":"US",
+    "streetAddressLine1":"211 Lenora",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981212235
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.34259,47.610047 ]
+    },
+    "properties": {
+    "storeNumber":"301-67",
+    "countryCode":"US",
+    "streetAddressLine1":"1912 Pike Place",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981011013
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.26821,47.520752 ]
+    },
+    "properties": {
+    "storeNumber":"74349-84924",
+    "countryCode":"US",
+    "streetAddressLine1":"9262 Rainier Ave S",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981185570
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.28307,47.537471 ]
+    },
+    "properties": {
+    "storeNumber":"12950-155384",
+    "countryCode":"US",
+    "streetAddressLine1":"3900 S Othello St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981183543
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2851,47.545883 ]
+    },
+    "properties": {
+    "storeNumber":"11158-99264",
+    "countryCode":"US",
+    "streetAddressLine1":"6310 Martin Luther King Jr. Way S",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98118
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.28834,47.569072 ]
+    },
+    "properties": {
+    "storeNumber":"24284-236926",
+    "countryCode":"US",
+    "streetAddressLine1":"3820 Rainier Avenue South",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98118
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29977,47.579087 ]
+    },
+    "properties": {
+    "storeNumber":"79347-100350",
+    "countryCode":"US",
+    "streetAddressLine1":"2707 Rainier Avenue South",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981445332
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32964,47.566563 ]
+    },
+    "properties": {
+    "storeNumber":"14247-137176",
+    "countryCode":"US",
+    "streetAddressLine1":"4115 4th Avenue S",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981342309
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33531,47.581011 ]
+    },
+    "properties": {
+    "storeNumber":"50621-275765",
+    "countryCode":"US",
+    "streetAddressLine1":"2401 Utah Ave. S",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98134
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.36558,47.522721 ]
+    },
+    "properties": {
+    "storeNumber":"3376-12811",
+    "countryCode":"US",
+    "streetAddressLine1":"9023 25th Ave SW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981060908
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3687,47.522047 ]
+    },
+    "properties": {
+    "storeNumber":"27542-244346",
+    "countryCode":"US",
+    "streetAddressLine1":"2800 SW Barton St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98126
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.36567,47.522233 ]
+    },
+    "properties": {
+    "storeNumber":"79328-101213",
+    "countryCode":"US",
+    "streetAddressLine1":"2500 SW Barton",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98126
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33394,47.5842 ]
+    },
+    "properties": {
+    "storeNumber":"9303-95447",
+    "countryCode":"US",
+    "streetAddressLine1":"1962 1st Ave S.",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981341406
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32563,47.546162 ]
+    },
+    "properties": {
+    "storeNumber":"3408-270326",
+    "countryCode":"US",
+    "streetAddressLine1":"601 S Michigan St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981082634
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.36708,47.516681 ]
+    },
+    "properties": {
+    "storeNumber":"74225-56780",
+    "countryCode":"US",
+    "streetAddressLine1":"9620 28th Ave SW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981264102
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.35493,47.513851 ]
+    },
+    "properties": {
+    "storeNumber":"49009-260729",
+    "countryCode":"US",
+    "streetAddressLine1":"9862 16th Ave SW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98146
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32829,47.597655 ]
+    },
+    "properties": {
+    "storeNumber":"3307-9256",
+    "countryCode":"US",
+    "streetAddressLine1":"505 5th Ave South",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981043891
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33971,47.604867 ]
+    },
+    "properties": {
+    "storeNumber":"2937-84565",
+    "countryCode":"US",
+    "streetAddressLine1":"1101 Alaskan Way",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981012981
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3385,47.606964 ]
+    },
+    "properties": {
+    "storeNumber":"65375-299342",
+    "countryCode":"US",
+    "streetAddressLine1":"1305 1st Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98101
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33437,47.605286 ]
+    },
+    "properties": {
+    "storeNumber":"3347-9592",
+    "countryCode":"US",
+    "streetAddressLine1":"999 Third Avenue",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981044019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33067,47.604277 ]
+    },
+    "properties": {
+    "storeNumber":"101-54",
+    "countryCode":"US",
+    "streetAddressLine1":"701 Fifth Avenue",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981047097
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33844,47.608378 ]
+    },
+    "properties": {
+    "storeNumber":"16891-168546",
+    "countryCode":"US",
+    "streetAddressLine1":"1401 2nd Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981012007
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33991,47.609052 ]
+    },
+    "properties": {
+    "storeNumber":"14870-142604",
+    "countryCode":"US",
+    "streetAddressLine1":"102 Pike St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981012010
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33589,47.607302 ]
+    },
+    "properties": {
+    "storeNumber":"15719-172425",
+    "countryCode":"US",
+    "streetAddressLine1":"1201 3rd Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981013029
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33425,47.607343 ]
+    },
+    "properties": {
+    "storeNumber":"392-218",
+    "countryCode":"US",
+    "streetAddressLine1":"1125 4th Avenue",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981013003
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33042,47.605341 ]
+    },
+    "properties": {
+    "storeNumber":"16741-159444",
+    "countryCode":"US",
+    "streetAddressLine1":"800 5th Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981043176
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33563,47.610562 ]
+    },
+    "properties": {
+    "storeNumber":"60580-294556",
+    "countryCode":"US",
+    "streetAddressLine1":"425 Pike St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98101
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33733,47.611517 ]
+    },
+    "properties": {
+    "storeNumber":"3343-30035",
+    "countryCode":"US",
+    "streetAddressLine1":"400 Pine Street",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98101
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33308,47.610154 ]
+    },
+    "properties": {
+    "storeNumber":"114-101752",
+    "countryCode":"US",
+    "streetAddressLine1":"601 Union Street",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981012341
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33352,47.610587 ]
+    },
+    "properties": {
+    "storeNumber":"54688-282204",
+    "countryCode":"US",
+    "streetAddressLine1":"1400 6th Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98102
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33378,47.612235 ]
+    },
+    "properties": {
+    "storeNumber":"3298-4659",
+    "countryCode":"US",
+    "streetAddressLine1":"1524 7th Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981011704
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33814,47.61524 ]
+    },
+    "properties": {
+    "storeNumber":"25577-237354",
+    "countryCode":"US",
+    "streetAddressLine1":"2011 7th Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981212601
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33587,47.614325 ]
+    },
+    "properties": {
+    "storeNumber":"3379-70784",
+    "countryCode":"US",
+    "streetAddressLine1":"1700 Seventh Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981011397
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32419,47.609578 ]
+    },
+    "properties": {
+    "storeNumber":"112-63",
+    "countryCode":"US",
+    "streetAddressLine1":"1101 Madison Street",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981041306
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32164,47.608157 ]
+    },
+    "properties": {
+    "storeNumber":"22868-212945",
+    "countryCode":"US",
+    "streetAddressLine1":"601 Broadway",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98122
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32166,47.608737 ]
+    },
+    "properties": {
+    "storeNumber":"22358-212944",
+    "countryCode":"US",
+    "streetAddressLine1":"747 Broadway",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98122
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32811,47.614008 ]
+    },
+    "properties": {
+    "storeNumber":"22344-217764",
+    "countryCode":"US",
+    "streetAddressLine1":"1124 Pike St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98101
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31657,47.609367 ]
+    },
+    "properties": {
+    "storeNumber":"3324-20420",
+    "countryCode":"US",
+    "streetAddressLine1":"800 12th Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981224410
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3298,47.617158 ]
+    },
+    "properties": {
+    "storeNumber":"104-222207",
+    "countryCode":"US",
+    "streetAddressLine1":"1730 Minor Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981011498
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.30198,47.599433 ]
+    },
+    "properties": {
+    "storeNumber":"3231-769",
+    "countryCode":"US",
+    "streetAddressLine1":"2300 South Jackson",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981442369
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32119,47.613838 ]
+    },
+    "properties": {
+    "storeNumber":"72922-95925",
+    "countryCode":"US",
+    "streetAddressLine1":"1401 Broadway",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981223854
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.30992,47.60719 ]
+    },
+    "properties": {
+    "storeNumber":"75364-102761",
+    "countryCode":"US",
+    "streetAddressLine1":"550 17th Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981225788
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.28083,47.634097 ]
+    },
+    "properties": {
+    "storeNumber":"3702-92",
+    "countryCode":"US",
+    "streetAddressLine1":"4000 East Madison St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981123160
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.28093,47.662275 ]
+    },
+    "properties": {
+    "storeNumber":"8890-151149",
+    "countryCode":"US",
+    "streetAddressLine1":"4800 Sand Point Way, NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981053901
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.28274,47.663162 ]
+    },
+    "properties": {
+    "storeNumber":"61932-294207",
+    "countryCode":"US",
+    "streetAddressLine1":"4800 Sand Point Way NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98105
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.28539,47.602082 ]
+    },
+    "properties": {
+    "storeNumber":"3238-1636",
+    "countryCode":"US",
+    "streetAddressLine1":"121 Lakeside Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981226599
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29676,47.662475 ]
+    },
+    "properties": {
+    "storeNumber":"73957-102105",
+    "countryCode":"US",
+    "streetAddressLine1":"2746 NE 45th Street",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981055099
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.30353,47.617997 ]
+    },
+    "properties": {
+    "storeNumber":"5076-148145",
+    "countryCode":"US",
+    "streetAddressLine1":"2201 E Madison",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981125336
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29936,47.661662 ]
+    },
+    "properties": {
+    "storeNumber":"20088-202265",
+    "countryCode":"US",
+    "streetAddressLine1":"2617 NE 46th St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981055041
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31311,47.733578 ]
+    },
+    "properties": {
+    "storeNumber":"3297-6387",
+    "countryCode":"US",
+    "streetAddressLine1":"14359 15th Avenue NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981258465
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2919,47.732951 ]
+    },
+    "properties": {
+    "storeNumber":"8777-94367",
+    "countryCode":"US",
+    "streetAddressLine1":"14330 Lake City Way NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981253620
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31063,47.733364 ]
+    },
+    "properties": {
+    "storeNumber":"3577-102132",
+    "countryCode":"US",
+    "streetAddressLine1":"1531 NE 145th St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981557205
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31198,47.718001 ]
+    },
+    "properties": {
+    "storeNumber":"13187-152144",
+    "countryCode":"US",
+    "streetAddressLine1":"12318 15th Ave NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981254820
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31748,47.709137 ]
+    },
+    "properties": {
+    "storeNumber":"79289-98129",
+    "countryCode":"US",
+    "streetAddressLine1":"11100 Roosevelt Way NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981256234
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29756,47.715983 ]
+    },
+    "properties": {
+    "storeNumber":"3402-78202",
+    "countryCode":"US",
+    "streetAddressLine1":"12001 Lake City Way NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981255331
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32543,47.709062 ]
+    },
+    "properties": {
+    "storeNumber":"4140-147524",
+    "countryCode":"US",
+    "streetAddressLine1":"302 NE Northgate Way",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981256047
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32386,47.704564 ]
+    },
+    "properties": {
+    "storeNumber":"66834-301459",
+    "countryCode":"US",
+    "streetAddressLine1":"10601 5th Ave. NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98125
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33211,47.708247 ]
+    },
+    "properties": {
+    "storeNumber":"3363-39519",
+    "countryCode":"US",
+    "streetAddressLine1":"2137 North Northgate Way",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981339006
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33705,47.714057 ]
+    },
+    "properties": {
+    "storeNumber":"19245-93994",
+    "countryCode":"US",
+    "streetAddressLine1":"1550 North 115th St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98133
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3455,47.724335 ]
+    },
+    "properties": {
+    "storeNumber":"3300-9280",
+    "countryCode":"US",
+    "streetAddressLine1":"13025 Aurora Avenue North",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981337506
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31683,47.682071 ]
+    },
+    "properties": {
+    "storeNumber":"7136-150645",
+    "countryCode":"US",
+    "streetAddressLine1":"7300 Roosevelt Way NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981155663
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.34484,47.689479 ]
+    },
+    "properties": {
+    "storeNumber":"19475-189065",
+    "countryCode":"US",
+    "streetAddressLine1":"8301 Aurora Ave. N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981034355
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.28941,47.682534 ]
+    },
+    "properties": {
+    "storeNumber":"17117-177224",
+    "countryCode":"US",
+    "streetAddressLine1":"7340 35th Ave NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981155919
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.36397,47.701661 ]
+    },
+    "properties": {
+    "storeNumber":"3346-32539",
+    "countryCode":"US",
+    "streetAddressLine1":"9999 Holman Rd NW",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981172041
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32553,47.680009 ]
+    },
+    "properties": {
+    "storeNumber":"389-7",
+    "countryCode":"US",
+    "streetAddressLine1":"7100 E Greenlake Drive N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981155415
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29064,47.681397 ]
+    },
+    "properties": {
+    "storeNumber":"2958-97759",
+    "countryCode":"US",
+    "streetAddressLine1":"7303 35th Avenue NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981155918
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3587,47.691979 ]
+    },
+    "properties": {
+    "storeNumber":"16763-96479",
+    "countryCode":"US",
+    "streetAddressLine1":"100 NW 85th Ave",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981173058
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31639,47.675689 ]
+    },
+    "properties": {
+    "storeNumber":"3248-1635",
+    "countryCode":"US",
+    "streetAddressLine1":"6417 Roosevelt Way NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981156657
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29897,47.664405 ]
+    },
+    "properties": {
+    "storeNumber":"3394-75960",
+    "countryCode":"US",
+    "streetAddressLine1":"2650 NE 49th ST",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981055010
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29974,47.662687 ]
+    },
+    "properties": {
+    "storeNumber":"302-68",
+    "countryCode":"US",
+    "streetAddressLine1":"4634 26th Avenue NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981055024
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33587,47.661753 ]
+    },
+    "properties": {
+    "storeNumber":"5123-146524",
+    "countryCode":"US",
+    "streetAddressLine1":"1801 N 45th St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981036859
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.30987,47.658666 ]
+    },
+    "properties": {
+    "storeNumber":"61169-291341",
+    "countryCode":"US",
+    "streetAddressLine1":"1169 NE Campus Pkwy",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98105
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31336,47.658219 ]
+    },
+    "properties": {
+    "storeNumber":"7941-95812",
+    "countryCode":"US",
+    "streetAddressLine1":"4147 University Way NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981056213
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.30859,47.655619 ]
+    },
+    "properties": {
+    "storeNumber":"50471-248824",
+    "countryCode":"US",
+    "streetAddressLine1":"4000 15th Ave. NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98105
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.30539,47.654891 ]
+    },
+    "properties": {
+    "storeNumber":"24357-233395",
+    "countryCode":"US",
+    "streetAddressLine1":"4001 Stevens Wy NE",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98195
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3118,47.654374 ]
+    },
+    "properties": {
+    "storeNumber":"62622-293313",
+    "countryCode":"US",
+    "streetAddressLine1":"3980 15TH AVE NE",
+    "city":"SEATTLE",
+    "countrySubdivisionCode":"WA",
+    "postalCode":98195
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31309,47.620423 ]
+    },
+    "properties": {
+    "storeNumber":"74489-96264",
+    "countryCode":"US",
+    "streetAddressLine1":"1410 E John St",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981125218
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32104,47.618869 ]
+    },
+    "properties": {
+    "storeNumber":"304-260735",
+    "countryCode":"US",
+    "streetAddressLine1":"101 Broadway East",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981026067
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32111,47.62228 ]
+    },
+    "properties": {
+    "storeNumber":"72908-95926",
+    "countryCode":"US",
+    "streetAddressLine1":"417 Broadway E",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981025009
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32496,47.619378 ]
+    },
+    "properties": {
+    "storeNumber":"3281-6226",
+    "countryCode":"US",
+    "streetAddressLine1":"1600 E Olive Wy",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981025613
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33668,47.622767 ]
+    },
+    "properties": {
+    "storeNumber":"15407-156113",
+    "countryCode":"US",
+    "streetAddressLine1":"442 Terry Avenue N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981095210
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33858,47.624489 ]
+    },
+    "properties": {
+    "storeNumber":"23730-232404",
+    "countryCode":"US",
+    "streetAddressLine1":"515 Westlake Ave N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981095191
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.34005,47.629932 ]
+    },
+    "properties": {
+    "storeNumber":"2810-89320",
+    "countryCode":"US",
+    "streetAddressLine1":"1200 Westlake Ave N",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981093543
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.32567,47.641026 ]
+    },
+    "properties": {
+    "storeNumber":"3448-84572",
+    "countryCode":"US",
+    "streetAddressLine1":"2344 Eastlake Ave E",
+    "city":"Seattle",
+    "countrySubdivisionCode":"WA",
+    "postalCode":981023306
+    }
+  }
+]
+}
