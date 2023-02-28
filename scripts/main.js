@@ -1,7 +1,7 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiaGFvY2gwNDIzIiwiYSI6ImNsZTd6ZWprZTAxOXAzdXFnN3J1NTVjZ2YifQ.75kz-3fG_A9SMXdoEZJiHg';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYXByaWw0MjkiLCJhIjoiY2xhMTdmYW83MDRxajNucWlnajZycXljYiJ9.6lp57MluBmbXVuoSV_FBwA';
 const map = new mapboxgl.Map({
     container: 'map', // container ID
-    style : 'mapbox://styles/haoch0423/clem0v58v000w01lfrh5gyln9',
+    style : 'mapbox://styles/april429/clen5lufa000301mkrlqpvs02',
     zoom: 11.5, // starting zoom
     center: [-122.325167, 47.608013], // starting center
     projection: 'albers'
@@ -9,24 +9,24 @@ const map = new mapboxgl.Map({
 
 async function geojsonFetch() {
     // Load GeoJson asynchronously
-    let response, starbucks;
+    let response, Starbucks;
     response = await fetch('assets/Starbucks_Seattle.geojson');
-    starbucks = await response.json();
+    Starbucks = await response.json();
     // Add map layers
     map.on('load', function loadingData() {
-        map.addSource('starbucks', {
+        map.addSource('Starbucks', {
             type: 'geojson',
-            data: starbucks
+            data: Starbucks
         });
 
         map.addLayer({
-            'id': 'starbucks-layer',
+            'id': 'Starbucks-layer',
             'type': 'circle',
             'source': 'Starbucks',
             'paint': {
-              'circle-radius': 8,
+              'circle-radius': 5,
               'circle-stroke-width': 2,
-              'circle-color': 'red',
+              'circle-color': 'green',
               'circle-stroke-color': 'white'
           }
         });
