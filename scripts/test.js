@@ -13,7 +13,7 @@ const map = new mapboxgl.Map({
 map.on('load', () => {
     map.addSource('starbucks', {
         type: 'geojson',
-        data: 'assets/Starbucks.geojson'
+        data: 'assets/Starbucks_Seattle.geojson'
     });
     map.addLayer({
         'id': 'starbucks-layer',
@@ -31,7 +31,7 @@ map.on('load', () => {
     map.on('click', 'starbucks', (event) => {
         new mapboxgl.Popup()
             .setLngLat(event.features[0].geometry.coordinates)
-            .setHTML(`<strong>cases:</strong> ${event.features[0].properties.postalCode}`)
+            .setHTML(`<strong>cases:</strong> ${event.features[0].properties.description}`)
             .addTo(map);
     });
 });
