@@ -10,7 +10,7 @@ const map = new mapboxgl.Map({
 async function geojsonFetch() {
     // Load GeoJson asynchronously
     let response, starbucks;
-    response = await fetch('assets/Starbucks.geojson');
+    response = await fetch('assets/Starbucks_Seattle.geojson');
     starbucks = await response.json();
     // Add map layers
     map.on('load', function loadingData() {
