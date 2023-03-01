@@ -1,0 +1,27 @@
+
+#container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #fffcfc;
+}
+
+#side-panel {
+  flex-basis: 500px;
+  overflow-y: scroll;
+}
+
+#map {
+flex: 1%;
+}
+
+.divider {
+  border-bottom: 2px solid #726f6d;
+}
+
+h1 {
+  text-align: center;
+  color: #0b421a;
+  font-weight: bolder;
+}
