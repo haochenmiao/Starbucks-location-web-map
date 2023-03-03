@@ -21,7 +21,46 @@ html {
   overflow-y: scroll;
   padding-right: 1%;
   padding-left: 1%;
+
 }
+
+/* Position the sidebar offscreen to the left */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -525px;
+  bottom: 0;
+  width: 525px;
+  z-index: 1;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: left 0.3s ease;
+}
+
+/* Show the sidebar when the "open" class is added */
+.sidebar.open {
+  left: 0;
+}
+
+/* Style the sidebar content */
+.sidebar-content {
+  padding: 10px;
+}
+
+/* Style the sidebar close button */
+.sidebar-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
 
 #map {
 flex: 1;

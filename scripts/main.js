@@ -40,6 +40,26 @@ async function geojsonFetch() {
             }
             const feature = features[0];
 
+            // Create a new html element for the side panel
+            const sidebar = document.getElementById('sidebar');
+            const sidebarContent = document.querySelector('.sidebar-content');
+
+            sidebarContent.innerHTML = `<h3>${feature.properties.Name}</h3><p>${feature.properties.description}</p>`;
+
+            sidebar.classList.add('open');
+
+            // Create the close button and add it to the sidebar
+            const closeButton = document.createElement('button');
+            closeButton.innerHTML = 'Close';
+            closeButton.classList.add('sidebar-close');
+            sidebar.appendChild(closeButton);
+
+            // Add an event listener to the close button
+            closeButton.addEventListener('click', () => {
+            // Remove the "open" class from the sidebar element
+            sidebar.classList.remove('open');
+            });
+
             const popup = new mapboxgl.Popup({ offset: [0, -15] })
             .setLngLat(feature.geometry.coordinates)
             .setHTML(
@@ -47,6 +67,9 @@ async function geojsonFetch() {
             )
             .addTo(map);
             });
+            
+                
+                
 
     });
 }
