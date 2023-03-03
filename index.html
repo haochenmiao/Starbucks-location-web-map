@@ -15,13 +15,27 @@
 </head>
 
 <body>
-    <main id="container">
-        <div id="side-panel">
+    <main id="container"> <!--  whole web page-->
+        <div id="side-panel"> <!-- side panel -->
             <h1>Starbucks in Seattle</h1>
-        </div>
-        <div class="divider"></div>
+            <div class="divider"></div>
+            <h3 class="selected-feature-title">Please Select a point on the map or from below to see store information.</h3>
+            <div class="divider"></div>
+            <div class="selectors">
+                <span class="selector btn active">BaseMap</span>
+                <span class="selector btn">In-store</span>
+                <span class="selector btn">Drive-Thru</span>
+                <span class="selector btn">Delivery</span>
+            </div>
+            <input type="text" class="search-bar" placeholder="Find a store...">
 
-        <div id="map"></div>
+        </div>
+
+        <div id="map"></div> <!-- map panel -->
+        <div id="sidebar" class="sidebar">
+            <div class="sidebar-content"></div>
+            <button class="sidebar-close">Close</button>>
+        </div>
     </main>
 <script src="scripts/main.js"></script>
 </body>
