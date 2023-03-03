@@ -66,7 +66,30 @@ async function geojsonFetch() {
             `<h3>${feature.properties.Name}</h3><p>${feature.properties.description}</p>`
             )
             .addTo(map);
+
+            const geocoder = new MapboxGeocoder({
+                accessToken: mapboxgl.accessToken,
+                mapboxgl: mapboxgl,
+                placeholder: 'Find a store...'
             });
+            document.getElementById('geocoder').appendChild(geocode.onAdd(map));
+
+        geocoder.on('result', (e) => {
+            const searchResults = document.getElementById('search-results');
+            searchResults.innerHTML = '';
+            const feature = e.result;
+            const title = feature.place_name.split(',')[0];
+            const address = feature.place_name.split(',').slice(1).join(',').trim();
+            const resultItem = document.createElement('div');
+            resultItem.innerHTML = `<div class="result-title">${title}</div><div class="result-address">${address}</div>`;
+            resultItem.addEventListener('click', () => {
+            // Fly to the selected location
+                map.flyTo({ center: feature.geometry.coordinates, zoom: 15 });
+            });
+            searchResults.appendChild(resultItem);
+            });
+                
+        });
             
                 
                 
