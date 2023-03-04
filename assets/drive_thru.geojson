@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Untitled layer",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Mt. Baker: 29th & MLK", "description": "2921 Martin Luther King Jr S<br>Seattle, WA 98144<br>(206) 721-1543", "gx_media_links": null }, "geometry": { "type": "Point", "coordinates": [ -122.296324, 47.577108 ] } },
+{ "type": "Feature", "properties": { "Name": "West Seattle: Fauntleroy", "description": "4408 Fauntleroy Way SW, Seattle, WA", "gx_media_links": null }, "geometry": { "type": "Point", "coordinates": [ -122.377787, 47.563977 ] } }
+]
+}
