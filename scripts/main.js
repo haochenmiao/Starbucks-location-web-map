@@ -19,6 +19,21 @@ async function geojsonFetch() {
             data: Starbucks
         });
 
+        map.addControl(
+            new MapboxGeocoder({
+                accessToken: mapboxgl.accessToken,
+                mapboxgl: mapboxgl,
+                container: 'geocoder-container',
+                placeholder: 'Find a store...',
+                proximity: {
+                    longitude: -122.3321,
+                    latitude: 47.6062
+                }
+            }),
+            'top-left'
+        );
+        
+
         map.addLayer({
             'id': 'Starbucks-layer',
             'type': 'circle',
