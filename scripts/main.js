@@ -25,6 +25,10 @@ async function geojsonFetch() {
                 mapboxgl: mapboxgl,
                 container: 'geocoder-container',
                 placeholder: 'Find a store...',
+                proximity: {
+                    longitude: -122.3321,
+                    latitude: 47.6062
+                }
             }),
             'top-left'
         );
