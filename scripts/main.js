@@ -19,6 +19,17 @@ async function geojsonFetch() {
             data: Starbucks
         });
 
+        map.addControl(
+            new MapboxGeocoder({
+                accessToken: mapboxgl.accessToken,
+                mapboxgl: mapboxgl,
+                container: 'geocoder-container',
+                placeholder: 'Search for places',
+            }),
+            'top-left'
+        );
+        
+
         map.addLayer({
             'id': 'Starbucks-layer',
             'type': 'circle',
@@ -66,11 +77,7 @@ async function geojsonFetch() {
             `<h3>${feature.properties.Name}</h3><p>${feature.properties.description}</p>`
             )
             .addTo(map);
-            });
-            
-                
-                
-
+            });   
     });
 }
 
