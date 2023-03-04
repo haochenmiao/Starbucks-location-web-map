@@ -24,7 +24,7 @@ async function geojsonFetch() {
                 accessToken: mapboxgl.accessToken,
                 mapboxgl: mapboxgl,
                 container: 'geocoder-container',
-                placeholder: 'Search for places',
+                placeholder: 'Find a store...',
             }),
             'top-left'
         );
