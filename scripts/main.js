@@ -159,9 +159,16 @@ async function geojsonFetch() {
             if (isActive) {
                 selector.classList.remove('active');
             } else {
+                // Remove "active" class from all selector buttons
+                const selectors = document.querySelectorAll('.layer-selector');
+                selectors.forEach(function(selector) {
+                    selector.classList.remove('active');
+                });
+    
+                // Add "active" class to clicked selector button
                 selector.classList.add('active');
-                }
             }
+        }
     });
 }
 
