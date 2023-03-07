@@ -139,8 +139,7 @@ async function geojsonFetch() {
         });
 
         driveThruInStoreSelector.addEventListener('click', function() {
-            toggleLayerVisibility('driveThru-layer');
-            toggleLayerVisibility('Starbucks-layer');
+            toggleLayerVisibility('both-layer');
             toggleSelectorActiveState(driveThruInStoreSelector);
         });
 
