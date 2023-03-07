@@ -30,9 +30,9 @@
             <h3 class="selected-feature-title">Please Select a point on the map or from below to see store information.</h3>
             <div class="divider"></div>
             <div class="selectors">
-                <span class="selector btn active">In-store</span>
-                <span class="selector btn">Drive-Thru</span>
-                <span class="selector btn">Drive-Thru&In-store</span>
+                <span id="in-store-selector"class="selector btn active">In-store</span>
+                <span id="drive-thru-selector"class="selector btn">Drive-Thru</span>
+                <span id="drive-thru-in-store-selector"class="selector btn">In-store & Drive-Thru</span>
             </div>
             <div id="search-results"></div>
         </div>
@@ -45,6 +45,17 @@
         </div>
     </main>
 <script src="scripts/main.js"></script>
+<script>
+    const starbucksLayerToggle = document.getElementById('starbucks-layer-toggle');
+    starbucksLayerToggle.addEventListener('change', function () {
+      const visibility = map.getLayoutProperty('Starbucks-layer', 'visibility');
+      if (visibility === 'visible') {
+        map.setLayoutProperty('Starbucks-layer', 'visibility', 'none');
+      } else {
+        map.setLayoutProperty('Starbucks-layer', 'visibility', 'visible');
+      }
+    });
+  </script>
 </body>
 
 </html>
