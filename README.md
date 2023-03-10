@@ -1,10 +1,10 @@
 
 
 # Starbucks In Seattle Location Finder
-Final group project repo for geog 458 course | GroupAB3 (Gunhee, Haochen, Sophia L, Sophia S)
+Final Project Repository for GEOG 458 course at UW | GroupAB3 (Gunhee, Haochen, Sophia L, Sophia S)
 
 ## Web Map Link
-[Starbucks in Seattle Map](https://sophial25.github.io/Final-Project/)
+#### [Starbucks in Seattle Map](https://sophial25.github.io/Final-Project/)
 ![Function01](img/ss1.png) [link](https://github.com/SophiaL25/Final-Project/blob/main/img/ss1.png)
 ![Function02](img/ss2.png) [link](https://github.com/SophiaL25/Final-Project/blob/main/img/ss2.png)
 
