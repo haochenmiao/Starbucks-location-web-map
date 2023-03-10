@@ -30,33 +30,37 @@
             <h3 class="selected-feature-title">Please Select a point on the map or from below to see store information.</h3>
             <div class="divider"></div>
             <div class="selectors">
+<<<<<<< HEAD
                 <span id="all-store-selector"class="selector btn">All-store</span>
                 <span id="in-store-selector"class="selector btn">in-store</span>
                 <span id="drive-thru-selector"class="selector btn">Drive-Thru</span>
                 <span id="drive-thru-in-store-selector"class="selector btn">In-store & Drive-Thru</span>
+=======
+              <span id="all-store-selector"class="selector btn">All-store</span>
+              <span id="in-store-selector"class="selector btn">In-store</span>
+              <span id="drive-thru-selector"class="selector btn">Drive-Thru</span>
+              <span id="drive-thru-in-store-selector"class="selector btn">In-store & Drive-Thru</span>
+>>>>>>> bd3b21df426b233f1a33e041e8c9530520b3919c
             </div>
-            <div id="search-results"></div>
+            <div id="information-box"></div>
+            <h3>Web Map About Info: </h3>
+            <p>With 101 locations in Seattle alone, Starbucks is the most commonly occurring chain store in our city.
+               With an average of 20 employees per store, according to Indeed.com, there are approximately 2,020 Seattleites employed at Starbucks.
+                Because of its relevance in everyday life of the average Seattle citizen, we chose to make an interactive web map of Seattle Starbucks locations.</p>
+            <p>Navigate through Starbucks’s Seattle locations. Find different service options by clicking above.
+              Find store locations, phone numbers, and hours of operation by clicking the green store markers to the right.
+               Drag and zoom to find a store near you.</p>
         </div>
-        <!--This is the geocoder code-->
-        <div id="geocoder-container" class="geocoder-container"></div>
-        <div id="map"></div> <!-- map panel -->
-        <div id="sidebar" class="sidebar">
-            <div class="sidebar-content"></div>
-            <button class="sidebar-close">Close</button>
-        </div>
+        <div id="sidebar" class="sidebar"><!-- slide bar -->
+          <div class="sidebar-content"></div>
+          <button class="sidebar-close">Close</button>
+      </div>
+        <!-- map panel -->
+        <div id="map"></div>
+        <div id="geocoder-container" class="geocoder-container"></div><!-- geocoder code -->
     </main>
 <script src="scripts/main.js"></script>
-<script>
-    const starbucksLayerToggle = document.getElementById('starbucks-layer-toggle');
-    starbucksLayerToggle.addEventListener('change', function () {
-      const visibility = map.getLayoutProperty('Starbucks-layer', 'visibility');
-      if (visibility === 'visible') {
-        map.setLayoutProperty('Starbucks-layer', 'visibility', 'none');
-      } else {
-        map.setLayoutProperty('Starbucks-layer', 'visibility', 'visible');
-      }
-    });
-  </script>
+
 </body>
 
 </html>
