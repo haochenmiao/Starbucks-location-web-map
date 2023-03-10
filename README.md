@@ -40,10 +40,15 @@ Seattle’s coffee enthusiasts, tourists who visit Seattle, city planners, and b
 - [Starbucks Dominates the Coffee Market in Seattle](https://www.thecommonscafe.com/starbucks-dominates-the-coffee-market-in-seattle/)
 - [Starbucks: A Legendary Washington State Business Since 1971](http://choosewashingtonstate.com/success-stories/starbucks/)
 
-![Reserve](img/Reserve.png) [link](https://www.cntraveler.com/bars/seattle/starbucks-reserve-roastery)
-![Store](img/Store.png)[link](https://www.seattlemet.com/eat-and-drink/2015/08/every-single-starbucks-in-seattle-ranked)
-![Starbucks](img/Starbucks.png) [link](https://wisconsinexaminer.com/wp-content/uploads/2022/02/starbucks-g489067a76_1920-1024x683.jpg)
+![Reserve](img/Reserve.png) 
+![Store](img/Store.png)
+![Starbucks](img/Starbucks.png) 
 
+Credits
+- [Reserve](https://www.cntraveler.com/bars/seattle/starbucks-reserve-roastery)
+- [Store](https://www.seattlemet.com/eat-and-drink/2015/08/every-single-starbucks-in-seattle-ranked)
+- [Starbucks Logo](https://wisconsinexaminer.com/wp-content/uploads/2022/02/starbucks-g489067a76_1920-1024x683.jpg)
+- 
 ## Project Format : Generic digital geographies project
 For this project, we will be using the web mercator projection, which is commonly used for web mapping applications. We will set the initial zoom level to display the entire city of Seattle and allow users to zoom in and out as needed. The center of the map will be set to the geographic center of seattle.
 
