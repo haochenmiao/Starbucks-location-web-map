@@ -64,7 +64,7 @@ async function geojsonFetch() {
             'paint': {
               'circle-radius': 5,
               'circle-stroke-width': 2,
-              'circle-color': 'green',
+              'circle-color': '#98bf64',
               'circle-stroke-color': 'white'
           }
         });
@@ -76,7 +76,7 @@ async function geojsonFetch() {
             'paint': {
               'circle-radius': 5,
               'circle-stroke-width': 2,
-              'circle-color': 'green',
+              'circle-color': '#728c69',
               'circle-stroke-color': 'white'
           }
         });
@@ -88,7 +88,7 @@ async function geojsonFetch() {
             'paint': {
               'circle-radius': 5,
               'circle-stroke-width': 2,
-              'circle-color': 'green',
+              'circle-color': '#32612d',
               'circle-stroke-color': 'white'
           }
         });
