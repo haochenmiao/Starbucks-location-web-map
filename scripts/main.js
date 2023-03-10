@@ -30,12 +30,9 @@ function deg2rad(deg) {
 
 async function geojsonFetch() {
     // Load GeoJson asynchronously
-    let response, allStore, inStore, driveThru, both;
+    let response, Starbucks, driveThru, both;
     response = await fetch('assets/Starbucks_Seattle.geojson');
-    allStore = await response.json();
-
-    response = await fetch('assets/in_store.geojson');
-    inStore = await response.json();
+    Starbucks = await response.json();
 
     response = await fetch('assets/in_store.geojson');
     inStore = await response.json();
@@ -45,81 +42,28 @@ async function geojsonFetch() {
 
     response = await fetch('assets/both.geojson');
     both = await response.json();
-
-<<<<<<< HEAD
-=======
-    // Add map sources, layers, and geocoder
-    map.on('load', () => {
-        // add map sources
-        map.addSource('allStore', {
+    // Add map layers
+    map.on('load', function loadingData() {
+        map.addSource('Starbucks', {
             type: 'geojson',
-            data: allStore
+            data: Starbucks
         });
->>>>>>> bd3b21df426b233f1a33e041e8c9530520b3919c
+
         map.addSource('inStore', {
             type: 'geojson',
             data: inStore
         });
-<<<<<<< HEAD
 
-=======
->>>>>>> bd3b21df426b233f1a33e041e8c9530520b3919c
         map.addSource('driveThru', {
             type: 'geojson',
             data: driveThru
         });
+
         map.addSource('both', {
             type: 'geojson',
             data: both
         });
 
-        // add map layers
-        map.addLayer({
-            'id': 'allStore-layer',
-            'type': 'circle',
-            'source': 'allStore',
-            'paint': {
-              'circle-radius': 5,
-              'circle-stroke-width': 2,
-              'circle-color': 'green',
-              'circle-stroke-color': 'white'
-          }
-        });
-        map.addLayer({
-            'id': 'inStore-layer',
-            'type': 'circle',
-            'source': 'inStore',
-            'paint': {
-              'circle-radius': 5,
-              'circle-stroke-width': 2,
-              'circle-color': 'green',
-              'circle-stroke-color': 'white'
-          }
-        });
-        map.addLayer({
-            'id': 'driveThru-layer',
-            'type': 'circle',
-            'source': 'driveThru',
-            'paint': {
-              'circle-radius': 5,
-              'circle-stroke-width': 2,
-              'circle-color': 'green',
-              'circle-stroke-color': 'white'
-          }
-        });
-        map.addLayer({
-            'id': 'both-layer',
-            'type': 'circle',
-            'source': 'both',
-            'paint': {
-              'circle-radius': 5,
-              'circle-stroke-width': 2,
-              'circle-color': 'green',
-              'circle-stroke-color': 'white'
-          }
-        });
-
-        // add geocoder
         map.addControl(
             new MapboxGeocoder({
                 accessToken: mapboxgl.accessToken,
@@ -135,8 +79,18 @@ async function geojsonFetch() {
             }),
             'top-left'
         );
-<<<<<<< HEAD
 
+        map.addControl(new mapboxgl.NavigationControl())
+
+        Starbucks.features.forEach(function(store) {
+            var el = document.createElement('div');
+            el.className = 'marker';
+            new mapboxgl.Marker(el)
+                .setLngLat(store.geometry.coordinates)
+                .setPopup(new mapboxgl.Popup({offset: [0, -25]})
+                .setHTML('<h3>' + store.properties.Name + '</h3><p>' + store.properties.description + '</p>'))
+                .addTo(map);
+        })
 
         
         map.addLayer({
@@ -235,24 +189,17 @@ async function geojsonFetch() {
             closeButton.addEventListener('click', () => {
               // Remove the "open" class from the sidebar element
               sidebar.classList.remove('open');
-=======
-
-        // center and zoom on inStore-layer
-        map.on('click', 'allStore-layer', (e) => {
-            map.flyTo({
-            center: e.features[0].geometry.coordinates,
-            zoom: 13
-            });
->>>>>>> bd3b21df426b233f1a33e041e8c9530520b3919c
             });
             
 
-            // Change the cursor to a pointer when the it enters a feature in the 'circle' layer.
-            map.on('mouseenter', 'circle', () => {
-            map.getCanvas().style.cursor = 'pointer';
+            const popup = new mapboxgl.Popup({ offset: [0, -15] })
+            .setLngLat(feature.geometry.coordinates)
+            .setHTML(
+            `<h3>${feature.properties.Name}</h3><p>${feature.properties.description}</p>`
+            )
+            .addTo(map);
             });
 
-<<<<<<< HEAD
         // Get the layer selector buttons by their ids
         const allStoreSelector = document.getElementById('all-store-selector');
         const inStoreSelector = document.getElementById('in-store-selector');
@@ -268,105 +215,45 @@ async function geojsonFetch() {
         inStoreSelector.addEventListener('click', function() {
             toggleLayerVisibility('inStore-layer');
             toggleSelectorActiveState(inStoreSelector);
-=======
-            // Change it back to a pointer when it leaves.
-            map.on('mouseleave', 'circle', () => {
-            map.getCanvas().style.cursor = '';
-            });
-
-    }); // map.on('load') closing tab
-
-    map.on('click', (event) => {
-        const features = map.queryRenderedFeatures(event.point, {
-        layers: ['allStore-layer', 'inStore-layer', 'driveThru-layer', 'both-layer']
->>>>>>> bd3b21df426b233f1a33e041e8c9530520b3919c
-        });
-        if (!features.length) {
-        return;
-        }
-
-        const feature = features[0];
-
-        // Create a new html element(slide side bar) for the side panel
-        const sidebar = document.getElementById('sidebar');
-        const sidebarContent = document.querySelector('.sidebar-content');
-        sidebarContent.innerHTML = `<h3>${feature.properties.Name}</h3><p>${feature.properties.description}</p>`;
-        sidebar.classList.add('open');
-
-        // Create the close button and add it to the sidebar
-        const closeButton = document.createElement('button');
-        closeButton.innerHTML = 'Close';
-        closeButton.classList.add('sidebar-close');
-        sidebar.appendChild(closeButton);
-
-        // Add an event listener to the close button
-        closeButton.addEventListener('click', () => {
-        // Remove the "open" class from the sidebar element
-        sidebar.classList.remove('open');
         });
 
-        // Create popup box
-        const popup = new mapboxgl.Popup({ offset: [0, -15] })
-        .setLngLat(feature.geometry.coordinates)
-        .setHTML(
-        `<h3>${feature.properties.Name}</h3><p>${feature.properties.description}</p>`
-        )
-        .addTo(map);
+        driveThruSelector.addEventListener('click', function() {
+            toggleLayerVisibility('driveThru-layer');
+            toggleSelectorActiveState(driveThruSelector);
+        });
 
-    }); // map.on('click') closing tab
+        driveThruInStoreSelector.addEventListener('click', function() {
+            toggleLayerVisibility('both-layer');
+            toggleSelectorActiveState(driveThruInStoreSelector);
+        });
 
-
-    // Get the layer selector buttons by their ids
-    const allStoreSelector = documnet.getElementById('all-store-selector');
-    const inStoreSelector = document.getElementById('in-store-selector');
-    const driveThruSelector = document.getElementById('drive-thru-selector');
-    const driveThruInStoreSelector = document.getElementById('drive-thru-in-store-selector');
-
-    // Add click event listeners to the layer selector buttons
-    allStoreSelector.addEventListener('click', function() {
-        toggleLayerVisibility('alltore-layer');
-        toggleSelectorActiveState(allStoreSelector);
-    });
-    inStoreSelector.addEventListener('click', function() {
-        toggleLayerVisibility('inStore-layer');
-        toggleSelectorActiveState(inStoreSelector);
-    });
-    driveThruSelector.addEventListener('click', function() {
-        toggleLayerVisibility('driveThru-layer');
-        toggleSelectorActiveState(driveThruSelector);
-    });
-    driveThruInStoreSelector.addEventListener('click', function() {
-        toggleLayerVisibility('both-layer');
-        toggleSelectorActiveState(driveThruInStoreSelector);
-    });
-
-    // Function to toggle the visibility of a layer
-    function toggleLayerVisibility(layerId) {
-        const visibility = map.getLayoutProperty(layerId, 'visibility');
-        if (visibility === 'visible') {
-            map.setLayoutProperty(layerId, 'visibility', 'none');
-        } else {
-            map.setLayoutProperty(layerId, 'visibility', 'visible');
+        // Function to toggle the visibility of a layer
+        function toggleLayerVisibility(layerId) {
+            const visibility = map.getLayoutProperty(layerId, 'visibility');
+            if (visibility === 'visible') {
+                map.setLayoutProperty(layerId, 'visibility', 'none');
+            } else {
+                map.setLayoutProperty(layerId, 'visibility', 'visible');
+            }
         }
-    }
 
-    // Function to toggle the active state of a selector button
-    function toggleSelectorActiveState(selector) {
-        const isActive = selector.classList.contains('active');
-        if (isActive) {
-            selector.classList.remove('active');
-        } else {
-            // Remove "active" class from all selector buttons
-            const selectors = document.querySelectorAll('.layer-selector');
-            selectors.forEach(function(selector) {
+        // Function to toggle the active state of a selector button
+        function toggleSelectorActiveState(selector) {
+            const isActive = selector.classList.contains('active');
+            if (isActive) {
                 selector.classList.remove('active');
-            });
-
-            // Add "active" class to clicked selector button
-            selector.classList.add('active');
+            } else {
+                // Remove "active" class from all selector buttons
+                const selectors = document.querySelectorAll('.layer-selector');
+                selectors.forEach(function(selector) {
+                    selector.classList.remove('active');
+                });
+    
+                // Add "active" class to clicked selector button
+                selector.classList.add('active');
+            }
         }
-    }
-
+    });
 }
 
 geojsonFetch();
