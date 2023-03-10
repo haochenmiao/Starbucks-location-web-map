@@ -66,10 +66,18 @@ html {
 flex: 1;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
   color: #0b421a;
   font-weight: bolder;
+}
+
+#information-box{
+  text-align: justify;
+}
+
+#about-box {
+  text-align: left;
 }
 
 .divider {
