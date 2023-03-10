@@ -164,12 +164,24 @@ async function geojsonFetch() {
             distances.sort((a, b) => a.distance - b.distance);
             
             // Create a HTML list of the locations with their distance from the selected location
+            // Loop through all the features in the GeoJSON data
             let locationList = '<ul>';
-            distances.forEach(d => {
-              const location = sourceData.features.find(f => f.properties.id === d.id);
-              locationList += `<li><strong>${location.properties.Name}</strong> (${d.distance.toFixed(2)} miles)</li>`;
+            sourceData.features.forEach(feature => {
+            // Get the name and address of the Starbucks location
+            const Name = feature.properties.Name;
+            const description = feature.properties.description;
+
+            // Add the name and address to the HTML list
+            locationList += `<li><strong>${Name}</strong><br>${description}</li>`;
             });
+            distances.forEach(d => {
+                const location = sourceData.features.find(f => f.properties.id === d.id);
+                locationList += `<li><strong>${location.properties.Name}</strong> (${d.distance.toFixed(2)} miles)</li>`;
+              });
             locationList += '</ul>';
+
+            // Display the HTML list on the page
+            document.getElementById('location-list').innerHTML = locationList;
             
             // Create a new html element for the side panel
             const sidebar = document.getElementById('sidebar');
