@@ -5,8 +5,8 @@ Final group project repo for geog 458 course | GroupAB3 (Gunhee, Haochen, Sophia
 
 ## Web Map Link
 [Starbucks in Seattle Map](https://sophial25.github.io/Final-Project/)
-
-
+![Function01](img/ss1.png) [link](https://github.com/SophiaL25/Final-Project/blob/main/img/ss1.png)
+![Function02](img/ss2.png) [link](https://github.com/SophiaL25/Final-Project/blob/main/img/ss2.png)
 
 ## Project idea
 We will be creating a web map featuring the brand of starbucks stores in the city of Seattle. The data set includes the locations of each store in Seattle, which we will be visualizing this locations and provide users enough information about the particular store. 
