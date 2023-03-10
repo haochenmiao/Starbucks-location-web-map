@@ -7,30 +7,10 @@ const map = new mapboxgl.Map({
     projection: 'albers'
 });
 
-function getDistance(point1, point2) {
-    const R = 3958.8;
-    const lat1 = point1[1];
-    const lon1 = point1[0];
-    const lat2 = point2[1];
-    const lon2 = point2[0];
-    const dLat = deg2rad(lat2 - lat1);
-    const dLon = deg2rad(lon2 - lon1);
-    const a = 
-      Math.sin(dLat/2) * Math.sin(dLat/2) + 
-      Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
-      Math.sin(dLon/2) * Math.sin(dLon / 2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    const d = R * c;
-    return d;
-  }
-
-function deg2rad(deg) {
-    return deg * (Math.PI / 180);
-}
-
 async function geojsonFetch() {
     // Load GeoJson asynchronously
-    let response, Starbucks, driveThru, both;
+    let response, Starbucks, inStore, driveThru, both;
+
     response = await fetch('assets/Starbucks_Seattle.geojson');
     Starbucks = await response.json();
 
@@ -42,7 +22,8 @@ async function geojsonFetch() {
 
     response = await fetch('assets/both.geojson');
     both = await response.json();
-    // Add map layers
+
+    // Add map sources
     map.on('load', function loadingData() {
         map.addSource('Starbucks', {
             type: 'geojson',
@@ -63,36 +44,7 @@ async function geojsonFetch() {
             type: 'geojson',
             data: both
         });
-
-        map.addControl(
-            new MapboxGeocoder({
-                accessToken: mapboxgl.accessToken,
-                mapboxgl: mapboxgl,
-                container: 'geocoder-container',
-                placeholder: 'Find a store...',
-                proximity: {
-                    longitude: -122.3321,
-                    latitude: 47.6062
-                },
-                countries: 'us',
-                types: 'poi'
-            }),
-            'top-left'
-        );
-
-        map.addControl(new mapboxgl.NavigationControl())
-
-        Starbucks.features.forEach(function(store) {
-            var el = document.createElement('div');
-            el.className = 'marker';
-            new mapboxgl.Marker(el)
-                .setLngLat(store.geometry.coordinates)
-                .setPopup(new mapboxgl.Popup({offset: [0, -25]})
-                .setHTML('<h3>' + store.properties.Name + '</h3><p>' + store.properties.description + '</p>'))
-                .addTo(map);
-        })
-
-        
+        // Add map layers
         map.addLayer({
             'id': 'Starbucks-layer',
             'type': 'circle',
@@ -140,6 +92,31 @@ async function geojsonFetch() {
               'circle-stroke-color': 'white'
           }
         });
+        // Add geocoder
+        map.addControl(
+            new MapboxGeocoder({
+                accessToken: mapboxgl.accessToken,
+                mapboxgl: mapboxgl,
+                container: 'geocoder-container',
+                placeholder: 'Find a store...',
+                proximity: {
+                    longitude: -122.3321,
+                    latitude: 47.6062
+                },
+                countries: 'us',
+                types: 'poi'
+            }),
+            'top-left'
+        );
+
+        // Add interactivity : center and zoom on allStore-layer
+        map.on('click', 'Starbucks-layer', (event) => {
+            map.flyTo({
+            center: event.features[0].geometry.coordinates,
+            zoom: 13
+            });
+        });
+
 
         map.on('click', (event) => {
             const features = map.queryRenderedFeatures(event.point, {
@@ -149,68 +126,34 @@ async function geojsonFetch() {
             return;
             }
             const feature = features[0];
-            const sourceData = map.getSource('Starbucks')._data;
-            
-            // Find the selected feature in the GeoJSON data
-            const selectedFeature = sourceData.features.find(f => f.properties.id === feature.properties.id);
-            
-            // Calculate the distance between the selected location and each location in the GeoJSON data
-            const distances = sourceData.features.map(f => {
-              const distance = getDistance(selectedFeature.geometry.coordinates, f.geometry.coordinates);
-              return { id: f.properties.id, distance: distance };
-            });
-            
-            // Sort the locations by distance
-            distances.sort((a, b) => a.distance - b.distance);
-            
-            // Create a HTML list of the locations with their distance from the selected location
-            // Loop through all the features in the GeoJSON data
-            let locationList = '<ul>';
-            sourceData.features.forEach(feature => {
-            // Get the name and address of the Starbucks location
-            const Name = feature.properties.Name;
-            const description = feature.properties.description;
 
-            // Add the name and address to the HTML list
-            locationList += `<li><strong>${Name}</strong><br>${description}</li>`;
-            });
-            distances.forEach(d => {
-                const location = sourceData.features.find(f => f.properties.id === d.id);
-                locationList += `<li><strong>${location.properties.Name}</strong> (${d.distance.toFixed(2)} miles)</li>`;
-              });
-            locationList += '</ul>';
-
-            // Display the HTML list on the page
-            document.getElementById('location-list').innerHTML = locationList;
-            
-            // Create a new html element for the side panel
+            // Create a new html element(slide side bar) for the side panel
             const sidebar = document.getElementById('sidebar');
             const sidebarContent = document.querySelector('.sidebar-content');
-            
-            sidebarContent.innerHTML = `<h3>${selectedFeature.properties.Name}</h3><p>${selectedFeature.properties.description}</p>${locationList}`;
-            
+            sidebarContent.innerHTML = `<h3>${feature.properties.Name}</h3><p>${feature.properties.description}</p>`;
             sidebar.classList.add('open');
-            
+
             // Create the close button and add it to the sidebar
             const closeButton = document.createElement('button');
             closeButton.innerHTML = 'Close';
             closeButton.classList.add('sidebar-close');
             sidebar.appendChild(closeButton);
-            
+
             // Add an event listener to the close button
             closeButton.addEventListener('click', () => {
-              // Remove the "open" class from the sidebar element
-              sidebar.classList.remove('open');
+            // Remove the "open" class from the sidebar element
+            sidebar.classList.remove('open');
             });
-            
 
+            // Create popup box
             const popup = new mapboxgl.Popup({ offset: [0, -15] })
             .setLngLat(feature.geometry.coordinates)
             .setHTML(
             `<h3>${feature.properties.Name}</h3><p>${feature.properties.description}</p>`
             )
             .addTo(map);
-            });
+
+        }); // map.on('click') closing tab
 
         // Get the layer selector buttons by their ids
         const allStoreSelector = document.getElementById('all-store-selector');
@@ -260,7 +203,7 @@ async function geojsonFetch() {
                 selectors.forEach(function(selector) {
                     selector.classList.remove('active');
                 });
-    
+
                 // Add "active" class to clicked selector button
                 selector.classList.add('active');
             }
