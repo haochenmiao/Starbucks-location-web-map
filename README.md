@@ -2,7 +2,7 @@
 Final Project Repository for GEOG 458 course at UW | GroupAB3 (Gunhee, Haochen, Sophia L, Sophia S)
 
 ## Web Map Link
-### [Starbucks in Seattle Map](https://sophial25.github.io/Final-Project/)
+### [Starbucks in Seattle Map](https://haochenmiao.github.io/Starbucks-location-web-map/)
 ![Function01](img/ss1.png) 
 ![Function02](img/ss2.png)
 
